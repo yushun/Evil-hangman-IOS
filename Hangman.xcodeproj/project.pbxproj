@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB120EBE13F20678000A650C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB120EBD13F20678000A650C /* UIKit.framework */; };
+		EB120EC013F20678000A650C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB120EBF13F20678000A650C /* Foundation.framework */; };
+		EB120EC213F20678000A650C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB120EC113F20678000A650C /* CoreGraphics.framework */; };
+		EB120EC813F20678000A650C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB120EC613F20678000A650C /* InfoPlist.strings */; };
+		EB120ECB13F20678000A650C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB120ECA13F20678000A650C /* main.m */; };
+		EB120ECE13F20678000A650C /* HangmanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB120ECD13F20678000A650C /* HangmanAppDelegate.m */; };
+		EB120ED113F20678000A650C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB120ECF13F20678000A650C /* MainWindow.xib */; };
+		EB120ED413F20678000A650C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB120ED313F20678000A650C /* MainViewController.m */; };
+		EB120ED613F20678000A650C /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB120ED513F20678000A650C /* MainView.xib */; };
+		EB120ED913F20678000A650C /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB120ED813F20678000A650C /* FlipsideViewController.m */; };
+		EB120EDB13F20678000A650C /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB120EDA13F20678000A650C /* FlipsideView.xib */; };
+		EB120EE913F206C6000A650C /* hangman1.png in Resources */ = {isa = PBXBuildFile; fileRef = EB120EE113F206C6000A650C /* hangman1.png */; };
+		EB120EEA13F206C6000A650C /* hangman2.png in Resources */ = {isa = PBXBuildFile; fileRef = EB120EE213F206C6000A650C /* hangman2.png */; };
+		EB120EEB13F206C6000A650C /* hangman3.png in Resources */ = {isa = PBXBuildFile; fileRef = EB120EE313F206C6000A650C /* hangman3.png */; };
+		EB120EEC13F206C6000A650C /* hangman4.png in Resources */ = {isa = PBXBuildFile; fileRef = EB120EE413F206C6000A650C /* hangman4.png */; };
+		EB120EED13F206C6000A650C /* hangman5.png in Resources */ = {isa = PBXBuildFile; fileRef = EB120EE513F206C6000A650C /* hangman5.png */; };
+		EB120EEE13F206C6000A650C /* hangman6.png in Resources */ = {isa = PBXBuildFile; fileRef = EB120EE613F206C6000A650C /* hangman6.png */; };
+		EB120EEF13F206C6000A650C /* hangman7.png in Resources */ = {isa = PBXBuildFile; fileRef = EB120EE713F206C6000A650C /* hangman7.png */; };
+		EB120EF013F206C6000A650C /* hangman8.png in Resources */ = {isa = PBXBuildFile; fileRef = EB120EE813F206C6000A650C /* hangman8.png */; };
+		EB120EF213F209C4000A650C /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB120EF113F209C4000A650C /* words.plist */; };
+		EB120F1413F27C59000A650C /* dialog.png in Resources */ = {isa = PBXBuildFile; fileRef = EB120F1313F27C59000A650C /* dialog.png */; };
+		EB120F1F13F2881E000A650C /* registerDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB120F1E13F2881E000A650C /* registerDefaults.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB120EB913F20678000A650C /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB120EBD13F20678000A650C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB120EBF13F20678000A650C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB120EC113F20678000A650C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB120EC513F20678000A650C /* Hangman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hangman-Info.plist"; sourceTree = "<group>"; };
+		EB120EC713F20678000A650C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB120EC913F20678000A650C /* Hangman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hangman-Prefix.pch"; sourceTree = "<group>"; };
+		EB120ECA13F20678000A650C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB120ECC13F20678000A650C /* HangmanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HangmanAppDelegate.h; sourceTree = "<group>"; };
+		EB120ECD13F20678000A650C /* HangmanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HangmanAppDelegate.m; sourceTree = "<group>"; };
+		EB120ED013F20678000A650C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EB120ED213F20678000A650C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EB120ED313F20678000A650C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EB120ED513F20678000A650C /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		EB120ED713F20678000A650C /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		EB120ED813F20678000A650C /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		EB120EDA13F20678000A650C /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		EB120EE113F206C6000A650C /* hangman1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman1.png; sourceTree = "<group>"; };
+		EB120EE213F206C6000A650C /* hangman2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman2.png; sourceTree = "<group>"; };
+		EB120EE313F206C6000A650C /* hangman3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman3.png; sourceTree = "<group>"; };
+		EB120EE413F206C6000A650C /* hangman4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman4.png; sourceTree = "<group>"; };
+		EB120EE513F206C6000A650C /* hangman5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman5.png; sourceTree = "<group>"; };
+		EB120EE613F206C6000A650C /* hangman6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman6.png; sourceTree = "<group>"; };
+		EB120EE713F206C6000A650C /* hangman7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman7.png; sourceTree = "<group>"; };
+		EB120EE813F206C6000A650C /* hangman8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman8.png; sourceTree = "<group>"; };
+		EB120EF113F209C4000A650C /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
+		EB120F1313F27C59000A650C /* dialog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dialog.png; sourceTree = "<group>"; };
+		EB120F1E13F2881E000A650C /* registerDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = registerDefaults.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB120EB613F20678000A650C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB120EBE13F20678000A650C /* UIKit.framework in Frameworks */,
+				EB120EC013F20678000A650C /* Foundation.framework in Frameworks */,
+				EB120EC213F20678000A650C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB120EAE13F20678000A650C = {
+			isa = PBXGroup;
+			children = (
+				EB120EC313F20678000A650C /* Hangman */,
+				EB120EBC13F20678000A650C /* Frameworks */,
+				EB120EBA13F20678000A650C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB120EBA13F20678000A650C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB120EB913F20678000A650C /* Hangman.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB120EBC13F20678000A650C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB120EBD13F20678000A650C /* UIKit.framework */,
+				EB120EBF13F20678000A650C /* Foundation.framework */,
+				EB120EC113F20678000A650C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB120EC313F20678000A650C /* Hangman */ = {
+			isa = PBXGroup;
+			children = (
+				EB120ECC13F20678000A650C /* HangmanAppDelegate.h */,
+				EB120ECD13F20678000A650C /* HangmanAppDelegate.m */,
+				EB120ECF13F20678000A650C /* MainWindow.xib */,
+				EB120ED213F20678000A650C /* MainViewController.h */,
+				EB120ED313F20678000A650C /* MainViewController.m */,
+				EB120ED513F20678000A650C /* MainView.xib */,
+				EB120ED713F20678000A650C /* FlipsideViewController.h */,
+				EB120ED813F20678000A650C /* FlipsideViewController.m */,
+				EB120EDA13F20678000A650C /* FlipsideView.xib */,
+				EB120EC413F20678000A650C /* Supporting Files */,
+			);
+			path = Hangman;
+			sourceTree = "<group>";
+		};
+		EB120EC413F20678000A650C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB120F1313F27C59000A650C /* dialog.png */,
+				EB120EF113F209C4000A650C /* words.plist */,
+				EB120EE113F206C6000A650C /* hangman1.png */,
+				EB120EE213F206C6000A650C /* hangman2.png */,
+				EB120EE313F206C6000A650C /* hangman3.png */,
+				EB120EE413F206C6000A650C /* hangman4.png */,
+				EB120EE513F206C6000A650C /* hangman5.png */,
+				EB120EE613F206C6000A650C /* hangman6.png */,
+				EB120EE713F206C6000A650C /* hangman7.png */,
+				EB120EE813F206C6000A650C /* hangman8.png */,
+				EB120EC513F20678000A650C /* Hangman-Info.plist */,
+				EB120EC613F20678000A650C /* InfoPlist.strings */,
+				EB120EC913F20678000A650C /* Hangman-Prefix.pch */,
+				EB120ECA13F20678000A650C /* main.m */,
+				EB120F1E13F2881E000A650C /* registerDefaults.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB120EB813F20678000A650C /* Hangman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB120EDE13F20678000A650C /* Build configuration list for PBXNativeTarget "Hangman" */;
+			buildPhases = (
+				EB120EB513F20678000A650C /* Sources */,
+				EB120EB613F20678000A650C /* Frameworks */,
+				EB120EB713F20678000A650C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hangman;
+			productName = Hangman;
+			productReference = EB120EB913F20678000A650C /* Hangman.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB120EB013F20678000A650C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EB120EB313F20678000A650C /* Build configuration list for PBXProject "Hangman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB120EAE13F20678000A650C;
+			productRefGroup = EB120EBA13F20678000A650C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB120EB813F20678000A650C /* Hangman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB120EB713F20678000A650C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB120EC813F20678000A650C /* InfoPlist.strings in Resources */,
+				EB120ED113F20678000A650C /* MainWindow.xib in Resources */,
+				EB120ED613F20678000A650C /* MainView.xib in Resources */,
+				EB120EDB13F20678000A650C /* FlipsideView.xib in Resources */,
+				EB120EE913F206C6000A650C /* hangman1.png in Resources */,
+				EB120EEA13F206C6000A650C /* hangman2.png in Resources */,
+				EB120EEB13F206C6000A650C /* hangman3.png in Resources */,
+				EB120EEC13F206C6000A650C /* hangman4.png in Resources */,
+				EB120EED13F206C6000A650C /* hangman5.png in Resources */,
+				EB120EEE13F206C6000A650C /* hangman6.png in Resources */,
+				EB120EEF13F206C6000A650C /* hangman7.png in Resources */,
+				EB120EF013F206C6000A650C /* hangman8.png in Resources */,
+				EB120EF213F209C4000A650C /* words.plist in Resources */,
+				EB120F1413F27C59000A650C /* dialog.png in Resources */,
+				EB120F1F13F2881E000A650C /* registerDefaults.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB120EB513F20678000A650C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB120ECB13F20678000A650C /* main.m in Sources */,
+				EB120ECE13F20678000A650C /* HangmanAppDelegate.m in Sources */,
+				EB120ED413F20678000A650C /* MainViewController.m in Sources */,
+				EB120ED913F20678000A650C /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB120EC613F20678000A650C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB120EC713F20678000A650C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB120ECF13F20678000A650C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB120ED013F20678000A650C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB120EDC13F20678000A650C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB120EDD13F20678000A650C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EB120EDF13F20678000A650C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB120EE013F20678000A650C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB120EB313F20678000A650C /* Build configuration list for PBXProject "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB120EDC13F20678000A650C /* Debug */,
+				EB120EDD13F20678000A650C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB120EDE13F20678000A650C /* Build configuration list for PBXNativeTarget "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB120EDF13F20678000A650C /* Debug */,
+				EB120EE013F20678000A650C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB120EB013F20678000A650C /* Project object */;
+}
