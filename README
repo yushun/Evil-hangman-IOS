@@ -1,0 +1,10 @@
+This is evil hangman.
+Like traditional hangman, the aim of the game is to guess the word before you use up the number of trys. But in evil hangman, the game will modify the word so you'll need to trap it. 
+
+This project was done for a course 2011. 
+
+
+To run.
+You will need Xcode installed on a Mac operating system. Simply open the Hangman.xcodeproj in Xcode. Then click the play/run simulation button in xcode.
+
+
